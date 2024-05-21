@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const livro7 = new Livro(7, "Crime e Castigo", "Fyodor Dostoevsky");
   const livro8 = new Livro(8, "O Pequeno Príncipe", "Antoine de Saint-Exupéry");
   const livro9 = new Livro(9, "Cem Anos de Solidão", "Gabriel García Márquez");
+  const livro10 = new Livro(10, "Comunicação Não Violenta", "Marshall");
+  const livro11 = new Livro(11, "Eloquent JavaScript", "Marijn Haverbeke");
 
   biblioteca.adicionarLivro(livro1);
   biblioteca.adicionarLivro(livro2);
@@ -30,9 +32,11 @@ document.addEventListener("DOMContentLoaded", () => {
   biblioteca.adicionarLivro(livro7);
   biblioteca.adicionarLivro(livro8);
   biblioteca.adicionarLivro(livro9);
+  biblioteca.adicionarLivro(livro10);
+  biblioteca.adicionarLivro(livro11);
 
-  const aluno1 = new Aluno("Lisandra", "lisandra@example.com", "A28", "123");
-  const aluno2 = new Aluno("Maria", "maria@example.com", "A29", "123");
+  const aluno1 = new Aluno("Lisandra", "lisandra@example.com", "123", "A28");
+  const aluno2 = new Aluno("Maria", "maria@example.com", "123", "A29");
 
   biblioteca.adicionarAluno(aluno1);
   biblioteca.adicionarAluno(aluno2);
